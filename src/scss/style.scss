@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+ol[role="list"],
+ul[role="list"] {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    display: block;
+    max-inline-size: 100%;
+}  
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+@import 'base/variables';
