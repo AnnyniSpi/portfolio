@@ -1,0 +1,16 @@
+.title {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.subtitle {
+  position: relative;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  z-index: 2;
+  padding-left: 13px;
+  @include before_circle;
+}
