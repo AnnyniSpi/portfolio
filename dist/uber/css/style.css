@@ -1,0 +1,229 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p,
+ol,
+ul {
+    margin: 0;
+}
+
+ol[role="list"],
+ul[role="list"] {
+    list-style: none;
+    padding-inline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+.btn{
+    border-radius: 4px;
+    box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(0.00deg, rgb(30, 172, 199), rgb(76, 226, 255) 100%);
+    border: none;
+    cursor: pointer;
+    
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title {
+    color: rgb(34, 34, 34);
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.label{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    width: 112px;
+    height: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header{
+    position: relative;
+}
+
+.navbar{
+    height: 53px;
+    background-color: #212121;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 70px;
+
+}
+
+.menu .menu__item {
+    border-right: 2px dotted #000000;
+    padding-right: 58px;
+
+}
+
+.menu .menu__link{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.subheader{
+    position: absolute;
+    width: 100%;
+    /* position: relative;
+    z-index: 2; */
+    height: 87px;
+    background: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader__logo{
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.subheader .subheader__official{
+    margin-top: 6px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 3000;
+}
+
+.subheader .subheader__call{
+    margin-top: 19px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.subheader .subheader__phone{
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 500;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.subheader .subheader__btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    font-size: 14px;
+}
+
+.promo{
+    min-height: 800px;
+    padding: 90px 0 185px 0;
+    background: url('../img/bg/main_bg.jpg') center center / cover no-repeat;
+    /* transform: translateY(-87px);
+    z-index: 1; */
+}
+
+.promo .promo__title{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.promo .promo__subtitle{
+    margin-top: 19px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.promo .promo__text{
+    margin-top: 19px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.promo .promo__btn{
+    display: block;
+    margin: 142px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    font-size: 18px;
+}
+
+.reasons{
+    min-height: 800px;
+    padding: 20px 0 64px 0;
+}
+
+.reasons .reasons__title{
+    margin-top: 32px;
+}
+
+.reasons .reasons__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reasons .reasons__item .reasons__round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 116px;
+    height: 116px;
+    background: rgb(30, 172, 199);
+    border-radius: 100%
+}
+
+.reasons .reasons__item .reasons__descr{
+    width: 372px;
+}
+
+.reasons .reasons__item .reasons__descr .reasons__subtitle{
+    color: #1EACC7;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.reasons .reasons__item .reasons__descr .reasons__text{
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+}

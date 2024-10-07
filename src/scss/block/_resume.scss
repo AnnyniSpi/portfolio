@@ -1,14 +1,10 @@
 .resume {
   padding-top: 120px;
   &__subtitle {
-    text-align: center;
     &::before {
       left: 50%;
       transform: translateX(-50%);
     }
-  }
-  &__title {
-    text-align: center;
   }
   &__grid {
     display: grid;
