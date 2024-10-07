@@ -3,6 +3,12 @@
   &__divider {
     margin: 0;
   }
+  &__photo {
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
   &__grid {
     padding: 0 35px 0 52px;
     display: grid;
