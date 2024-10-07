@@ -151,8 +151,8 @@
         <span></span>
       </div>
       <div class="container">
-        <div class="subtitle promo__subtitle">Меня зовут Александра Смит</div>
-        <h1 class="title promo__title">Я web-разработчик
+        <div class="subtitle promo__subtitle subtitle-left">Меня зовут Александра Смит</div>
+        <h1 class="title promo__title title-left">Я web-разработчик
           из города Москва</h1>
         
         <div class="promo__btns">
@@ -169,8 +169,8 @@
             <img src="img/main_photo.jpg" alt="photo">
           </div>
           <div class="about__grid-descr">
-            <div class="subtitle about__subtitle">Про меня</div>
-            <h2 class="title about__title">Меня зовут Александра</h2>
+            <div class="subtitle subtitle-left">Про меня</div>
+            <h2 class="title about__title title-left">Меня зовут Александра</h2>
             <div class="divider about__divider"></div>
             <p class="about__grid-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
@@ -507,6 +507,65 @@
             <div class="price-title">Дизайн</div>
             <div class="price-cost">Индивидуально</div>
             <div class="price-descr">Создам дизайн для вашего сайта/приложения...</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <div class="container">
+        <div class="contacts__grid">
+          <div class="contacts__photo">
+            <img src="img/main_photo.jpg" alt="photo">
+          </div>
+
+          <div class="contacts__descr">
+            <div class="subtitle subtitle-left">Контакты</div>
+            <h2 class="title title-left">Свяжитесь со мной</h2>
+            <div class="divider contacts__divider"></div>
+
+            <div class="contacts__text">
+              Любым удобным для вас способом:
+            </div>
+            <div class="contacts__social">
+              <a class="contacts__link" href="#">
+                <img src="icons/social/facebook.svg" alt="facebook">
+              </a>
+              <a class="contacts__link" href="#">
+                <img src="icons/social/telegram.svg" alt="telegram">
+              </a>
+              <a class="contacts__link" href="#">
+                <img src="icons/social/instagram.svg" alt="instagram">
+              </a>
+            </div>
+            <div class="contacts__text">
+              Или оставьте ваши данные и я сама вам напишу:
+            </div>
+
+            <form action="#" class="contacts__form">
+                <div class="contacts__input">
+                  <input required name="name" id="name" type="text">
+                  <label name="ëmail" for="name">Ваше имя</label>
+                </div>
+                <div id="email" class="contacts__input">
+                  <input required type="email">
+                  <label for="email">Ваша почта</label>
+                </div>
+
+                <div class="contacts__textarea">
+                  <textarea name="text" id="text"></textarea>
+                  <label for="text">Ваше сообщение</label>
+                </div>
+
+                <div class="contacts__triggers">
+                  <button class="button contacts__btn">Отправить сообщение</button>
+                  <div class="contacts__policy">
+                    <input required type="checkbox">
+                    <span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
+                  </div>
+                </div>
+                
+            </form>
           </div>
         </div>
       </div>
