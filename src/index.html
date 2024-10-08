@@ -162,11 +162,15 @@
         </div>
       </div>
     </section>
-    <section class="about">
+     <section class="about">
       <div class="container">
         <div class="about__grid">
           <div class="about__grid-photo">
-            <img src="img/main_photo.jpg" alt="photo">
+            <picture>
+              <source media="(max-width: 576px)" srcset="img/main_photo_min.jpeg">
+              <source media="(min-width: 577px)" srcset="img/main_photo.jpg">
+              <img src="img/main_photo.jpg" alt="photo">
+            </picture>
           </div>
           <div class="about__grid-descr">
             <div class="subtitle subtitle-left">Про меня</div>
@@ -305,6 +309,7 @@
         </div>
       </div>
     </section>
+
     <section class="skills">
       <div class="container">
         <div class="subtitle section-subtitle">Навыки</div>
